@@ -1,0 +1,11 @@
+language: python  # or python, ruby, java, etc.
+
+script:
+   print("Hello World")
+
+notifications:
+  email:
+    recipients:
+      - bissirioufarhane@gmail.com
+    on_success: always
+    on_failure: always
